@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preservation of Records</title> 
+    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0" charset="utf-8"/> 
+    <style type="text/css">
+        *{
+            margin: 2px;
+            padding: 2px;
+            box-sizing:border-box;
+        }
+        body{ 
+            font-family:Arial, sans-serif;
+            height: 100vh;
+             }
+        .container{
+            max-width: 1100px;
+            margin: 0 auto;
+            padding:2rem;
+            box-shadow: 0px 5px 10px rgba;
+            border-radius: 10px;
+        }
+        .filter-input{
+            width: 100%;
+            margin-bottom: 2rem;
+            padding: 0.5rem;
+            font-size:20px;
+            border:2px solid orange;
+            border-radius: 10px;
+        }
+        table{
+            border-collapse:collapse;
+            width: 100%;
+        }
+        th{
+            text-align:left;
+            padding: 8px;
+            margin: 8px;
+            color: blueviolet;
+                }
+        td{
+            text-align:inherit;
+            padding: 8px;
+       
+            
+        }
+        tr:nth-child(even){
+            background-color:palevioletred;
+        }
+        tr:nth-child(odd){
+            background-color:palegoldenrod;
+                    }
+       
+        footer {
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:aqua;
+        color:red;
+        text-align: center;
+        padding:4px; 
+        font-weight:800;
+    
+        }
+    </style>
+    
+</head>
+    <body>
+        <center><h1 style="color:blue">Preservation of Records</h1></center>
+        <div class="container">
+            <input type="text" placeholder="search....." class="filter-input">
+            <div class="output"></div>
+            
+        </div>     
+        <script type="text/javascript" src="preserve.js"></script>
+             
+    </body>
+    
+</html>
